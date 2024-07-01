@@ -1,0 +1,28 @@
+GCPHiveDetails:
+  host: ''
+  port: 10000
+  auth: 'NONE'
+
+AWSHiveDetails:
+  host: ''
+  port: 10000
+  username: ''
+  password: ''
+  auth: 'LDAP'
+
+MailDetails:
+  fromEmail: ""
+  toEmail: ""
+  smtpServer: ""
+  smtpPort: 587
+  smtpUser: ""
+  smtpPassword: ""
+
+
+JobDetails:
+  runMode: 'local' #cloud
+  bucketName: 'pe-skull-data'
+  gcsPath: 'test/pravin/hive_2_hive_dq/'
+  tableDetailsFileName: "table_details.csv"
+  prestoFileName: "presto.pem"
+  localPath: "/folder/folder1/"
