@@ -21,7 +21,7 @@ MailDetails:
 
 JobDetails:
   runMode: 'local' #cloud
-  bucketName: 'pe-skull-data'
+  bucketName: 'test-bucket'
   gcsPath: 'test/pravin/hive_2_hive_dq/'
   tableDetailsFileName: "table_details.csv"
   prestoFileName: "presto.pem"
